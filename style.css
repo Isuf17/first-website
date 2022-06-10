@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    /* text-align: center;   */
     display: flex;
     flex-direction: column;
     overflow: auto;
@@ -39,19 +38,33 @@ ul {
     gap: 16px;
 }
 
-.container {
+.first-container {
+    padding: 20px;
     display: flex;
-    padding: 1rem 14rem 7rem;
-}
-
-.container .intro {
-    display: flex;
-    gap: 12px;
     justify-content: center;
     align-items: center;
 }
 
+.first-container .intro {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+button.first{
+    background: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 15px;
+    color: white;  
+}
+
+.first-container .title {
+    font-size: 48px;
+    font-weight: bold;
+}
 img {
-    width: 50px;
+    width: 100px;
     height: auto;
 }
