@@ -13,7 +13,6 @@ body {
 }
 
 .header {
-    margin: 0;
     padding: 4px 16px;
     display: flex;
     justify-content: space-between;
@@ -99,7 +98,6 @@ ul {
 .second-container .items {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 100px;
 }
@@ -116,6 +114,7 @@ ul {
 }
 
 .info .text {
+    max-width: 150px;
     padding-top: 20px;
     color: aquamarine;
 }
