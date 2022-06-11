@@ -20,7 +20,7 @@ body {
 }
 
 .header .logo {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: bold;
     color: aquamarine;
 }
@@ -39,7 +39,7 @@ ul {
 }
 
 .first-container {
-    padding: 20px;
+    padding: 1rem 14rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ ul {
     gap: 12px;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    /* flex: 1; */
 }
 
 button.first{
@@ -64,7 +64,42 @@ button.first{
     font-size: 48px;
     font-weight: bold;
 }
-img {
+.right img {
     width: 100px;
     height: auto;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 52, 187);
+    height: 500px;
+}
+
+.second-container .title {
+    display: flex;
+    font-size: 32px;
+    font-weight: 500;
+    color: beige;
+    height: 250px;
+}
+
+.second-container .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 250px;
+}
+
+.info img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.info .text {
+    padding-top: 20px;
 }
