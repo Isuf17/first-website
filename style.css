@@ -85,7 +85,8 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: rgb(28, 52, 187);
-    height: 400px;
+    min-height: 400px;
+    height: 100%;
 }
 
 .second-container .title {
@@ -99,7 +100,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 100px;
 }
 
