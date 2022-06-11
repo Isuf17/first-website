@@ -138,3 +138,47 @@ ul {
  .quote .source {
     text-align: right;
  }
+
+ /* FOURTH CONTAINER */
+
+ .fourth-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+ }
+
+ .fourth-container .advert {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 2rem 5rem;
+    border-radius: 15px;
+    background-image: url("./images/sunset.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .advert .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+ }
+
+ .advert .text {
+    color: red;
+ }
+
+.right .second {
+    color: red;
+    padding-block: 4px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+
+
