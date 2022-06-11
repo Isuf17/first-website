@@ -2,10 +2,12 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
+    display: block;
     overflow: auto;
     background-color: rgb(51, 165, 173);
 }
@@ -17,10 +19,12 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    position: fixed;
+    width: 100%;
 }
 
 .header .logo {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bold;
     color: aquamarine;
 }
@@ -38,36 +42,42 @@ ul {
     gap: 16px;
 }
 
+/* FIRST CONTAINER */
+
 .first-container {
-    padding: 1rem 14rem 1rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 .first-container .intro {
     display: flex;
-    gap: 12px;
+    gap: 36px;
     justify-content: center;
     align-items: center;
-    /* flex: 1; */
+    margin-top: 40px;
 }
 
-button.first{
+.first-container .first-button {
     background: royalblue;
-    border: 1px solid royalblue;
     border-radius: 15px;
-    color: white;  
+    color: white;
+    padding-block: 4px;
+    cursor: pointer;
 }
 
 .first-container .title {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bold;
 }
-.right img {
+
+.first-container img {
     width: 100px;
     height: auto;
+    border-radius: 15px;
 }
+
+/* SECOND CONTAINER */
 
 .second-container {
     display: flex;
@@ -75,15 +85,14 @@ button.first{
     justify-content: center;
     align-items: center;
     background-color: rgb(28, 52, 187);
-    height: 500px;
+    height: 400px;
 }
 
 .second-container .title {
-    display: flex;
     font-size: 32px;
     font-weight: 500;
     color: beige;
-    height: 250px;
+    margin-bottom: 50px;
 }
 
 .second-container .items {
@@ -91,15 +100,22 @@ button.first{
     justify-content: center;
     align-items: center;
     gap: 100px;
-    height: 250px;
+}
+
+.info {
+    max-width: 200px;
 }
 
 .info img {
     width: 150px;
     height: 150px;
+    border-radius: 15px;
     object-fit: cover;
 }
 
 .info .text {
     padding-top: 20px;
+    color: aquamarine;
 }
+
+
